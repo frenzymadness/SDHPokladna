@@ -1,0 +1,13 @@
+[{
+    "name": "Becherovka",
+    "smallPrice": 10,
+    "price": 20
+}, {
+    "name": "Carolans",
+    "smallPrice": 30,
+    "price": 40
+}, {
+    "name": "Magister",
+    "smallPrice": 25,
+    "price": 40
+}]
