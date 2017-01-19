@@ -9,18 +9,28 @@
 <body>
     <div class="container" ng-controller="ItemListController">
         <h1>Kasa</h1>
-        <div class="row" ng-repeat="item in items">
-            <div class="col-lg-1"><img class="img-responsive" src="img/items/{{item.name | lowercase}}.jpg" alt="Becherovka"></div>
-            <div class="col-lg-2"><h3>{{item.name}}</h3></div>
+        <div class="row" ng-repeat="item in items" class="bg-success">
+            <!-- <div class="col-lg-1"><img class="img-responsive" src="img/items/{{item.name | lowercase}}.jpg" alt="{{item.name}}"></div> -->
+            <div class="col-lg-2"><b>{{item.name}}</b></div>
             <div class="col-lg-1"><b>{{item.smallPrice}} Kč</b></div>
             <div class="col-lg-1"><b>{{item.price}} Kč</b></div>
             <div class="col-lg-3">
-                <button class="btn btn-success">++++</button>
-                <button class="btn btn-danger">----</button>
+                <button class="btn btn-success" ng-click="changePrice(item.smallPrice)">++++</button>
+                <button class="btn btn-danger" ng-click="changePrice(-item.smallPrice)">----</button>
             </div>
             <div class="col-lg-3">
-                <button class="btn btn-success">++++</button>
-                <button class="btn btn-danger">----</button>
+                <button class="btn btn-success" ng-click="changePrice(item.price)">++++</button>
+                <button class="btn btn-danger" ng-click="changePrice(-item.price)">----</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <button class="btn btn-danger" ng-click="reset()">Reset</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>K zaplacení: {{totalPrice}}</h2>
             </div>
         </div>
     </div>
