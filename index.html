@@ -12,11 +12,9 @@
 </head>
 <body>
     <div class="container" ng-controller="ItemListController">
-        <h1>Kasa</h1>
         <div class="row" ng-repeat="item in items">
             <!-- <div class="col-sm-1"><img class="img-responsive" src="img/items/{{item.name | lowercase}}.jpg" alt="{{item.name}}"></div> -->
-            <div class="col-sm-1" class="{{item.class}}"><b>{{item.name}}</b></div>
-            <div class="col-sm-1"><b>{{item.smallPrice}}/{{item.price}}&nbsp;Kč</b></div>
+            <div class="col-sm-2" class="{{item.class}}"><b>{{item.name}}</b></div>
             <div class="col-sm-3">
                 <button class="btn btn-success" ng-click="addItem(item, 'small')">Malá {{item.name}} za {{item.smallPrice}} Kč</button>
             </div>
