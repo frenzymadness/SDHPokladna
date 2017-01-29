@@ -44,10 +44,21 @@ app.controller('ItemListController', function ItemListController($scope, $http) 
   $scope.reset = function reset() {
     $scope.totalPrice = 0;
     $scope.order = "";
-    
+    $scope.money = 0;
+    $scope.moneyBack = 0;
     angular.forEach($scope.items, function(item, key) {
         item.ordered = 0;
         item.orderedSmall = 0;
     });
+  };
+
+  $scope.countMoney = function countMoney(amount) {
+    $scope.money += amount;
+    $scope.moneyBack = $scope.money - $scope.totalPrice
+  };
+
+  $scope.resetMoney = function resetMoney() {
+    $scope.money = 0;
+    $scope.moneyBack = 0;
   };
 });
