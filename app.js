@@ -16,6 +16,7 @@ app.controller('ItemListController', function ItemListController($scope, $http) 
       item.ordered += 1;
     }
     $scope.regenerateTextOrder();
+    $scope.countMoney(0);
   };
 
   $scope.removeItem = function removeItem(item, type) {
@@ -27,6 +28,7 @@ app.controller('ItemListController', function ItemListController($scope, $http) 
       item.ordered -= 1;
     }
     $scope.regenerateTextOrder();
+    $scope.countMoney(0);
   };
 
   $scope.regenerateTextOrder = function regenerateTextOrder() {
