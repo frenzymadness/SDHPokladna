@@ -1,13 +1,107 @@
-[{
-    "name": "Becherovka",
-    "smallPrice": 10,
-    "price": 20
-}, {
-    "name": "Carolans",
-    "smallPrice": 30,
-    "price": 40
-}, {
-    "name": "Magister",
-    "smallPrice": 25,
-    "price": 40
-}]
+[
+    {
+        "name": "Becherovka",
+        "smallPrice": 10,
+        "price": 20
+    },
+    {
+        "name": "Bo\u017ekov",
+        "smallPrice": 10,
+        "price": 20
+    },
+    {
+        "name": "Bo\u017ekov k\u00e1vov\u00fd",
+        "smallPrice": 10,
+        "price": 20
+    },
+    {
+        "name": "Bo\u017ekov mango",
+        "smallPrice": 10,
+        "price": 20
+    },
+    {
+        "name": "Carolans",
+        "smallPrice": 10,
+        "price": 20
+    },
+    {
+        "name": "Fernet citrus",
+        "smallPrice": 10,
+        "price": 20
+    },
+    {
+        "name": "Fernet stock",
+        "smallPrice": 10,
+        "price": 20
+    },
+    {
+        "name": "Jagermaister",
+        "smallPrice": 10,
+        "price": 20
+    },
+    {
+        "name": "Jameson",
+        "smallPrice": 10,
+        "price": 20
+    },
+    {
+        "name": "Kafeso",
+        "smallPrice": 10,
+        "price": 20
+    },
+    {
+        "name": "Koskenkorva",
+        "smallPrice": 10,
+        "price": 20
+    },
+    {
+        "name": "Limo pomeran\u010d",
+        "smallPrice": 10,
+        "price": 20
+    },
+    {
+        "name": "Magister",
+        "smallPrice": 10,
+        "price": 20
+    },
+    {
+        "name": "Mattoni",
+        "smallPrice": 10,
+        "price": 20
+    },
+    {
+        "name": "Metaxa 5*",
+        "smallPrice": 10,
+        "price": 20
+    },
+    {
+        "name": "Moravsk\u00e1 hru\u0161ka",
+        "smallPrice": 10,
+        "price": 20
+    },
+    {
+        "name": "Moravsk\u00e1 \u0161vestka zlat\u00e1",
+        "smallPrice": 10,
+        "price": 20
+    },
+    {
+        "name": "Myslivec",
+        "smallPrice": 10,
+        "price": 20
+    },
+    {
+        "name": "Pra\u017esk\u00e1 vodka",
+        "smallPrice": 10,
+        "price": 20
+    },
+    {
+        "name": "Pushkin",
+        "smallPrice": 10,
+        "price": 20
+    },
+    {
+        "name": "Tonic",
+        "smallPrice": 10,
+        "price": 20
+    }
+]
