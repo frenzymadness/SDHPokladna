@@ -1,8 +1,8 @@
 [
     {
         "name": "Becherovka",
-        "smallPrice": 10,
-        "price": 20
+        "smallPrice": 15,
+        "price": 30
     },
     {
         "name": "Bo\u017ekov",
@@ -10,19 +10,14 @@
         "price": 20
     },
     {
-        "name": "Bo\u017ekov k\u00e1vov\u00fd",
-        "smallPrice": 10,
-        "price": 20
-    },
-    {
-        "name": "Bo\u017ekov mango",
+        "name": "Bo\u017ekov speciál",
         "smallPrice": 10,
         "price": 20
     },
     {
         "name": "Carolans",
-        "smallPrice": 10,
-        "price": 20
+        "smallPrice": 15,
+        "price": 30
     },
     {
         "name": "Fernet citrus",
@@ -36,53 +31,58 @@
     },
     {
         "name": "Jagermaister",
-        "smallPrice": 10,
-        "price": 20
+        "smallPrice": 20,
+        "price": 40
     },
     {
         "name": "Jameson",
-        "smallPrice": 10,
-        "price": 20
+        "smallPrice": 25,
+        "price": 50
+    },
+    {
+        "name": "Juice",
+        "smallPrice": 60,
+        "price": 60
     },
     {
         "name": "Kafeso",
-        "smallPrice": 10,
-        "price": 20
+        "smallPrice": 15,
+        "price": 15
     },
     {
         "name": "Koskenkorva",
-        "smallPrice": 10,
-        "price": 20
+        "smallPrice": 15,
+        "price": 25
     },
     {
         "name": "Limo pomeran\u010d",
-        "smallPrice": 10,
-        "price": 20
+        "smallPrice": 15,
+        "price": 15
     },
     {
         "name": "Magister",
-        "smallPrice": 10,
-        "price": 20
+        "smallPrice": 15,
+        "price": 25
     },
     {
         "name": "Mattoni",
-        "smallPrice": 10,
-        "price": 20
+        "smallPrice": 15,
+        "price": 15
     },
     {
         "name": "Metaxa 5*",
-        "smallPrice": 10,
-        "price": 20
+        "smallPrice": 20,
+        "price": 40
     },
     {
         "name": "Moravsk\u00e1 hru\u0161ka",
-        "smallPrice": 10,
-        "price": 20
+        "smallPrice": 15,
+        "price": 30
     },
     {
         "name": "Moravsk\u00e1 \u0161vestka",
-        "smallPrice": 10,
-        "price": 20
+        "smallPrice": 15,
+        "price": 30
     },
     {
         "name": "Myslivec",
@@ -91,17 +91,27 @@
     },
     {
         "name": "Pra\u017esk\u00e1 vodka",
-        "smallPrice": 10,
-        "price": 20
+        "smallPrice": 15,
+        "price": 30
     },
     {
         "name": "Pushkin",
-        "smallPrice": 10,
-        "price": 20
+        "smallPrice": 15,
+        "price": 30
     },
     {
         "name": "Tonic",
-        "smallPrice": 10,
-        "price": 20
+        "smallPrice": 15,
+        "price": 15
+    },
+    {
+        "name": "Jednohubky",
+        "smallPrice": 25,
+        "price": 25
+    },
+    {
+        "name": "Uzly",
+        "smallPrice": 7,
+        "price": 7
     }
 ]
