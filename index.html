@@ -15,17 +15,17 @@
         <div class="row" ng-repeat="item in items">
             <!-- <div class="col-sm-1"><img class="img-responsive" src="img/items/{{item.name | lowercase}}.jpg" alt="{{item.name}}"></div> -->
             <div class="col-sm-2" class="{{item.class}}"><b>{{item.name}}</b></div>
-            <div class="col-sm-3">
-                <button class="btn btn-success" ng-click="addItem(item, 'small')">Malá {{item.name}} za {{item.smallPrice}} Kč</button>
+            <div class="col-sm-4">
+                <button class="btn btn-success" ng-click="addItem(item, 'small')">{{item.name}} za {{item.smallPrice}} Kč</button>
             </div>
-            <div class="col-sm-2">      
-                <button class="btn btn-danger" ng-click="removeItem(item, 'small')" ng-disabled="item.orderedSmall == 0">Odebrat</button>
+            <div class="col-sm-1">
+                <button class="btn btn-danger" ng-click="removeItem(item, 'small')" ng-disabled="item.orderedSmall == 0">---</button>
             </div>
-            <div class="col-sm-3">
-                <button class="btn btn-success" ng-click="addItem(item, 'regular')">Velká {{item.name}} za {{item.price}} Kč</button>
+            <div class="col-sm-4">
+                <button class="btn btn-success" ng-click="addItem(item, 'regular')">{{item.name}} za {{item.price}} Kč</button>
             </div>
-            <div class="col-sm-2">
-                <button class="btn btn-danger" ng-click="removeItem(item, 'regular')" ng-disabled="item.ordered == 0">Odebrat</button>
+            <div class="col-sm-1">
+                <button class="btn btn-danger" ng-click="removeItem(item, 'regular')" ng-disabled="item.ordered == 0">---</button>
             </div>
         </div>
         <div class="row">
